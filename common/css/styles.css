@@ -1,7 +1,5 @@
 @charset "UTF-8";
-
-html,
-body {
+html, body {
 	height: 100%;
 	margin: 0;
 }
@@ -30,11 +28,9 @@ body #mainContent button {
 a {
 	text-decoration: none !important;
 }
-h2,
-h3,
-h4 {
+h2, h3, h4 {
 	font-weight: bold;
-	color: #626262;	
+	color: #626262;
 }
 nav.navbar {
 	background: #1c5336;
@@ -51,21 +47,15 @@ nav.navbar li {
 nav.navbar li > a {
 	padding-top: 19px;
 }
-nav.navbar li > a,
-nav.navbar-toggle {
+nav.navbar li > a, nav.navbar-toggle {
 	color: #fff;
 }
-nav .nav > li > a:focus,
-nav .nav > li > a:hover,
-nav .nav .open > a,
-nav .nav .open > a:focus,
-nav .nav .open > a:hover {
+nav .nav > li > a:focus, nav .nav > li > a:hover, nav .nav .open > a, nav .nav .open > a:focus, nav .nav .open > a:hover {
 	border-bottom: 1px solid transparent;
 	background: none;
 }
 nav .nav li.ac:hover {
-	border-bottom: #00A221 2px solid;
-	/*5bd453*/
+	border-bottom: #00A221 2px solid; /*5bd453*/
 }
 nav .navbar-toggle {
 	float: left !important;
@@ -85,9 +75,7 @@ footer {
 	bottom: 0;
 	width: 100%;
 	min-height: 60px;
-	background-color: #1c5336;
-	/*12422b;*/
-	;
+	background-color: #1c5336;/*12422b;*/
 	color: #fff;
 }
 footer .footer-lrg-cnt {
@@ -98,17 +86,11 @@ footer .footer-icons a {
 	padding: 0 2px 5px 2px;
 	color: #fff;
 }
-footer .lnk-lightgreen,
-footer.lnk-lightgreen:hover,
-footer.lnk-lightgreen:active,
-footer.lnk-lightgreen:visited {
+footer .lnk-lightgreen, footer.lnk-lightgreen:hover, footer.lnk-lightgreen:active, footer.lnk-lightgreen:visited {
 	color: #5bd453 !important;
 	;
 }
-footer .lnk-white,
-footer.lnk-white:hover,
-footer.lnk-white:active,
-footer.lnk-white:visited {
+footer .lnk-white, footer.lnk-white:hover, footer.lnk-white:active, footer.lnk-white:visited {
 	color: #fff !important;
 	padding: 0 10px;
 }
@@ -141,7 +123,6 @@ footer .chair-mobile {
 	background-size: 40%;
 	display: none
 }
-
 /* generic styles */
 .datepicker {
 	font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif !important;
@@ -221,71 +202,71 @@ footer .chair-mobile {
 
 /* media queries */
 @media only screen and (min-width: 992px) and (max-width: 1999px) {
-	nav .logo {
-		background: url("../img/TDI-lrg.png") !important;
-		background-repeat: no-repeat !important;
-		width: 220px;
-		height: 39px;
-		margin-right: 50px;
+	 nav .logo {
+	 background: url("../img/TDI-lrg.png") !important;
+	 background-repeat: no-repeat !important;
+	 width: 220px;
+	 height: 39px;
+	 margin-right: 50px;
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	nav .logo {
-		background: url("../img/TDI-lrg.png") !important;
-		background-repeat: no-repeat !important;
-		width: 220px;
-		height: 39px;
+	 nav .logo {
+	 background: url("../img/TDI-lrg.png") !important;
+	 background-repeat: no-repeat !important;
+	 width: 220px;
+	 height: 39px;
 	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	nav .logo {
-		background: url("../img/TDI-sml.png") !important;
-		background-repeat: no-repeat !important;
-		width: 180px;
-		height: 32px;
-		margin: 8px 0 8px 82px !important;
+	 nav .logo {
+	 background: url("../img/TDI-sml.png") !important;
+	 background-repeat: no-repeat !important;
+	 width: 180px;
+	 height: 32px;
+	 margin: 8px 0 8px 82px !important;
 	}
-	nav .nav li {
-		padding: 0 50px 0 18px;
+	 nav .nav li {
+	 padding: 0 50px 0 18px;
 	}
-	footer .chair-mobile {
-		display: block;
+	 footer .chair-mobile {
+	 display: block;
 	}
-	footer .chair-dsk {
-		background: none;
+	 footer .chair-dsk {
+	 background: none;
 	}
-	.toggle-align {
-		text-align: center;
+	 .toggle-align {
+	 text-align: center;
 	}
-	.break-word {
-		display: block;
+	 .break-word {
+	 display: block;
 	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 479px) {
-	nav .logo {
-		background: url("../img/TDI-sml.png") !important;
-		background-repeat: no-repeat !important;
-		width: 180px;
-		height: 32px;
-		margin: 8px 0 8px 82px !important;
+	 nav .logo {
+	 background: url("../img/TDI-sml.png") !important;
+	 background-repeat: no-repeat !important;
+	 width: 180px;
+	 height: 32px;
+	 margin: 8px 0 8px 82px !important;
 	}
-	nav .nav li {
-		padding: 0 50px 0 18px;
+	 nav .nav li {
+	 padding: 0 50px 0 18px;
 	}
-	footer .chair-mobile {
-		display: block;
+	 footer .chair-mobile {
+	 display: block;
 	}
-	footer .chair-dsk {
-		background: none;
+	 footer .chair-dsk {
+	 background: none;
 	}
-	.toggle-align {
-		text-align: center;
+	 .toggle-align {
+	 text-align: center;
 	}
-	.break-word {
-		display: block;
+	 .break-word {
+	 display: block;
 	}
 }
